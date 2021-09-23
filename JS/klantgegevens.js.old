@@ -1,0 +1,148 @@
+class user {
+    constructor(voornaam, achternaam,telephone, email, address, huisnummer,
+         postcode, woonplaats, selecteer){
+        this.voornaam = voornaam;
+        this.achternaam = achternaam;
+        this.telephone = telephone;
+        this.email = email;
+        this.address = address;
+        this.huisnummer = huisnummer;
+        this.postcode = postcode;
+        this.woonplaats = woonplaats;
+        this.selecteer = selecteer;
+    }
+   var currentUser = new User ();
+    
+  // var userData =[];
+
+function passingData(){
+   var voornaam = getElementById("NaamInput").value;
+   var achternaam = getElementById("AchternaamInput").value;
+   var phone = getElementById("TelephoneInput").value;
+   var email = getElementById("EmailInput").value;
+   var address = getElementById("AddressInput").value;
+   var huisnummer = getElementById("HuisnummerInput").value;
+   var postcode = getElementById("PostcodeInput").value;
+   var woonplaats = getElementById("WoonplaatsInput").value;
+   var selecteer = getElementById("SubjectInput").value; 
+
+//    userData = [ [voornaam,""], 
+//                 [achternaam, ""], 
+//                 [phone, ""],
+//                 [email, ""], 
+//                 [address, ""],
+//                 [huisnummer,""],
+//                 [postcode,""],
+//                 [woonplaats, ""],
+//                 [selecteer, ""]];
+
+function 
+
+
+}
+    
+    
+    // user_naam.innerHTML = user_naam.naam    
+     // currentUser.push(JSON.stringify([0]);
+
+
+
+
+
+
+
+function getData(){
+
+    currentUser.voornaam = 
+   var voornaam = getElementById("NaamInput").value;
+   var achternaam = getElementById("AchternaamInput").value;
+   var phone = getElementById("TelephoneInput").value;
+   var email = getElementById("EmailInput").value;
+   var address = getElementById("AddressInput").value;
+   var huisnummer = getElementById("HuisnummerInput").value;
+   var postcode = getElementById("PostcodeInput").value;
+   var woonplaats = getElementById("WoonplaatsInput").value;
+   var what = getElementById("SubjectInput").value;
+
+   localStorage.setItem("RegForm",Voornaam );
+   localStorage.setItem("RegForm",Achternaam );
+   localStorage.setItem("RegForm",Telephone );
+   localStorage.setItem("RegForm",Email );
+   localStorage.setItem("RegForm",Address );
+   localStorage.setItem("RegForm",Huisnummer);
+   localStorage.setItem("RegForm",Postcode);
+   localStorage.setItem("RegForm",Woonplaats);
+   localStorage.setItem("RegForm",Selecteer);
+   
+}
+
+
+function personalData() {
+    var voornaam = document.forms["RegForm"]["NaamInput"];
+    var achternaam = document.forms["RegForm"]["AchternaamInput"];
+    var phone = document.forms["RegForm"]["TelephoneInput"];
+    var email = document.forms["RegForm"]["EmailInput"];
+    var address = document.forms["RegForm"]["AddressInput"];
+    var huisnummer = document.forms["RegForm"]["HuisnummerInput"];
+    var postcode = document.forms["RegForm"]["PostcodeInput"];
+    var woonplaats = document.forms["RegForm"]["WoonplaatsInput"];
+    var what = document.forms["RegForm"]["SubjectInput"];
+
+
+    if (voornaam.value == "") {
+        window.alert("Voer alstublieft in uw naam.");
+        voornaam.focus();
+        return false;
+    }
+
+    if (achternaam.value == "") {
+        window.alert("Voer alstublieft in uw  address.");
+        address.focus();
+        return false;
+    }
+
+    if (phone.value == "") {
+        window.alert("Voer alstublieft in uw telephonnummer.");
+        phone.focus();
+        return false;
+    }
+
+    if (email.value == "") {
+        window.alert("Voer alstublieft in uw  e-mail address.");
+        email.focus();
+        return false;
+    }
+
+    if (address.value == "") {
+        window.alert("Voer alstublieft in uw  address");
+        address.focus();
+        return false;
+    }
+
+    if (huisnummer.value == "") {
+        window.alert("Voer alstublieft in uw  huisnummer");
+        huisnummer.focus();
+        return false;
+    }
+
+    if (postcode.value == "") {
+        window.alert("Voer alstublieft in uw  postcode");
+        postcode.focus();
+        return false;
+    }
+
+
+    if (woonplaats.value == "") {
+        window.alert("Voer alstublieft in uw woonplaats");
+        woonplaats.focus();
+        return false;
+    }
+
+    if (what.selectedIndex < 1) {
+        alert("Maak alstublieft uw keuze.");
+        what.focus();
+        return false;
+    }
+
+    return true;
+}
