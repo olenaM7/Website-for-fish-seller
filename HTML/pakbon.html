@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Eindopdracht </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="description" content="De visbestelling_page2">
+    <meta name="author" content="Olena Maroun">
+    <link rel="stylesheet" href="../CSS/pakbon.css">
+    <script src="../JS/User.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="column_1">
+        <img src="../photos/fish_PNG25147.png">
+    </div>
+
+
+    <div id="tbon">
+        <table>
+            <tr>
+                <td class="Hours">
+                    <h>Artikel</h>
+                </td>
+
+                <td class="Rate">
+                    <h>Antal</h>
+                </td>
+                <td class="Hours">
+                    <h>Subtotaal</h>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Visfriet bak van 250 gram"
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                        € 3.50/item&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVisfrietQtty"></p>
+                    <span id="qttyVisFr"></span>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVisfrietTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Zalmsnack" &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+
+
+                        € 3.95/item&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelZalmsnackQtty"></p>
+                    <span id="qttyZ"></span>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelZalmsnackTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Kibbeling" &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+
+
+                        € 11.00/kg &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelKibQtty"></p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelKibTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Viskoekje"&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;
+                        € 1.75/item&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;
+                        &nbsp;X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVisKoekQtty"></p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVisKoekTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Ravigotte-, cocktail-,<br>
+                        of knoflooksaus"&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;
+                        €0.60/item&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelRaviGotteQtty"></p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelRaviGotteTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Verse Zalmmoot"&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;
+
+
+                        &nbsp;€32.50/kg&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVerseZalmmootQtty"></p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelVerseZalmmootTotal"></p>
+                </td>
+            </tr>
+
+            <tr class="service">
+                <td class="tableitem">
+                    <p class="itemtext">"Dorade"&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
+                        &nbsp;
+                        &nbsp; &nbsp;
+
+                        €11.43/kg &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;X</p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelDoradetQtty"></p>
+                </td>
+                <td class="tableitem">
+                    <p class="itemtext" id="labelDoradeTotal"></p>
+                </td>
+            </tr>
+
+
+            <tr class="tabletitle">
+                <td></td>
+                <td class="Rate">
+                    <h1>KORTING</h1>
+                </td>
+
+                <td class="payment">
+                    <h2 id="labelVDDiscount"></h2>
+                </td>
+            </tr>
+
+            <tr class="tabletitle">
+                <td></td>
+                <td class="Rate">
+                    <h1>TOTAL</h1>
+                </td>
+                <td class="payment">
+                    <h2 id="totallab"></h2>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+
+    <div id="userInputInfo">
+        <tr class="NaamVoornaam">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;NAAM:&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <h id="NaamVoornaam"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="NaamAchternaam">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;AHTERNAAM: &nbsp;&nbsp;<h id="NaamAchternaam"></h>
+                </p>
+            </td>
+        </tr>
+        <br>
+        <tr class="Telephone">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;TELEPHONE: &nbsp;&nbsp; <h id="Telephone"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="Email">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;EMAIL: &nbsp;&nbsp; <h id="Email"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="Address">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;ADDRESS: &nbsp;&nbsp; <h id="Address"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="Huisnummer">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;HUISNUMMER: &nbsp;&nbsp; <h id="Huisnummer"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="Postcode">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;POSTCODE: &nbsp;&nbsp; <h id="Postcode"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="Woonplaats">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;WOONPLAATS: &nbsp;&nbsp; <h id="Woonplaats"></h>
+                </p>
+            </td>
+        </tr>
+        <tr class="What">
+            <td class="tableitem">
+                <p>&nbsp;&nbsp;OPTIE: &nbsp;&nbsp; <h id="What"></h>
+                </p>
+            </td>
+        </tr>
+    </div>
+
+    <button id="confirmOrder" onclick="ConfirmAndRedirect()">Bevestigen</button>
+</body>
+<script src="../JS/pakbon.js"></script>
+
+</html>
