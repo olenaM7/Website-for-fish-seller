@@ -1,0 +1,312 @@
+
+body{
+    background-color: black;
+    background-image: url("../photos/fish_PNG25147.png") ;
+}
+
+
+#navbar{
+        border: 1px solid black;
+        display: flex;
+        background-color: black;
+        background-image: url("../photos/fish_PNG25147.png") ;
+        border-bottom-color: #fff;
+} 
+
+#list{ 
+    float: right;
+    margin-right: 0%;
+    width: 30%;
+    text-align: right;
+}
+
+.logo{
+    float: left;
+    width: 70%;
+    background-image: url() ;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#navbar ul a {
+ list-style-type: none;
+ color: white;
+}
+
+#navbar ul li{
+ display: inline-block;      
+ padding: 10px;    
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+
+
+#main section{
+              background-color: black;
+              display: flex;
+              height: 1500px;
+              width: 100%;
+              justify-content: center;
+              margin: 0% auto;
+              flex-wrap: wrap;
+}
+
+
+#topbanner{
+        background-image: url() ;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 600px;
+        background-color: #000;
+        justify-content: center;
+        max-width: 100%;
+        
+}
+
+#navbar1{
+    border: 1px solid black;
+    display: flex;
+     background-color:transparent; 
+    
+
+}
+.text-box{
+ color: white; 
+ text-align: center;
+ top: 50%;
+ left:50%;
+ position: relative;
+ transform: translate(-50%, -50%);
+
+background-color: rgba(0, 0, 0, 0.692);
+}
+
+
+
+
+#flex_container_Header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_text_Header{
+    background-color: black;
+    color: white ;    
+}
+
+#parent_flex_offer{
+    display: flex;
+    flex-direction: column;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+    flex-shrink: inherit;
+    width: 60%;
+    margin: 0 auto; 
+
+    
+
+    
+}
+
+ #flex_container_Row_1{ 
+    margin-left: 250px;  
+     margin-right: 250px;
+     margin-top:20px; 
+    background-color: black; 
+    display: flex;
+    
+ }
+
+
+#flex_container_Row_2{
+    margin-left: 250px ;
+    margin-right: 250px;
+    margin-bottom: 100px;
+    background-color: black; 
+    display: flex;
+    justify-content: center;  
+    margin-bottom: 0px;
+    
+}
+
+.column img{
+    width: 60%;
+  margin: 0 15px;
+  display: block;
+}
+
+ 
+
+h2 {
+        background-position: centre;
+        color: white;
+        text-align: center;
+ }
+
+ h3{
+    background-position: centre;
+    color: white;
+    text-align:match-parent;
+}
+
+ .text-box1{
+    color: white ;
+}
+
+.text-box2{
+    color: white ;
+}
+
+.text-box3{
+    color: white ;
+}
+
+.text-box4{
+    color: white ;
+}
+
+.text-box5{
+    color: white ;
+}
+
+.text-box6{
+    color: white ;
+} 
+
+
+
+ 
+#parent_3_flex_conteiner{
+   
+    justify-content: space-between;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 470px;
+    max-width: 100%;
+    background-color: #000000;
+    margin-right: 250px;
+    margin-left: 250px;
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+    
+
+    
+}
+
+
+
+.flex_box_Loc{
+    display: flex;
+    background-color:  rgba(0, 0, 0, 0.692);
+   
+     align-content: center; 
+    
+    left: 493px;
+    margin-top: 70px;
+   
+    
+    
+}
+
+.text-box_Loc{
+    text-align: center;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+ #flex_child_Cities{
+     display: flex;
+     justify-content: space-evenly;
+     align-content: center;
+     padding-bottom: 150px;
+ }
+
+ 
+
+
+ 
+
+#container_center{
+text-align: center;
+color:white;
+
+background-color: rgba(0, 0, 0, 0.692);
+
+
+margin-right: 35px;
+
+
+}  
+
+.item_Utr{
+     color: white;
+    display: flex; 
+    justify-content: space-evenly; 
+}  
+
+
+ 
+
+
+
+ .footer {
+    width:100%;
+    background-color: #000;
+   
+    color: #fff;
+    width:100%;
+    padding:30px 0;
+    border-top-color: grey;
+    border-top: solid 2px;
+} 
+
+
+
+ #ftr-links span a {
+    color: #fff;
+    margin: 0;
+}  
+
+ #ftr-links {
+    display:table;
+    table-layout:fixed;
+    vertical-align:middle;
+    width: 100%;
+    text-align: justify;
+   
+
+}  
+
+.footer div span{
+    display:table-cell;
+    text-align: center;  
+} 
+
+
+ body {
+    padding:0;
+    margin: 0;
+} 

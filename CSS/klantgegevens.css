@@ -1,0 +1,22 @@
+
+body{
+  background-image: url(../photos/fish_PNG25147.png); 
+  background-repeat: no-repeat;
+}
+
+div { 
+    box-sizing: border-box;
+    width: 100%;
+    float: left;
+    align-content: center;
+    align-items: center;
+}
+   
+form {   
+    margin: 0 auto;
+    width: 600px;
+}
+
+h1{
+    text-align: center;  
+}
